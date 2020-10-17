@@ -5,7 +5,9 @@ body {
 
 /*Navigation bar*/
 .navbar {
-  background: #fff; }
+  background: #fff;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  z-index: 1; }
 
 .nav-link, .navbar-brand {
   color: #000;
@@ -45,5 +47,17 @@ body {
   color: #fff;
   font-size: 1.3rem;
   line-height: 1.5; }
+
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1); }
+  #carousel .carousel-inner {
+    max-height: 38rem !important; }
+    #carousel .carousel-inner .carousel-item-next,
+    #carousel .carousel-inner .carousel-item-prev,
+    #carousel .carousel-inner .carousel-item.active {
+      transition: transform 1.2s ease; }
+
+.chief {
+  text-shadow: 5px 5px 5px black; }
 
 /*# sourceMappingURL=main.css.map */
