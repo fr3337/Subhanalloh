@@ -81,15 +81,16 @@ body {
 .chief {
       text-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 1.0);
 }
-.col-md-3, .col-md-6 {
-      z-index: 1;
-}
+// .col-md-3, .col-md-6 {
+//       z-index: 1;
+// }
 .shape_1 {
       width: 200px;
       height: 200px;
       position: absolute;
       bottom: 150px;
       left: -100px;
+      z-index: -1;
 }
 .shape_2 {
     width: 220px;
@@ -97,6 +98,7 @@ body {
     position: absolute;
     bottom: 500px;
     right: -100px;
+    z-index: -1;
 }
 .box_1 img{
     width: 200px;
@@ -189,3 +191,10 @@ body {
         transform: scale(1.1);
     }
 }
+// footer {
+//     // border: 5px solid yellow;
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     width: 100%;
+// }

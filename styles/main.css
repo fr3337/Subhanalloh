@@ -64,22 +64,21 @@ body {
 .chief {
   text-shadow: 5px 5px 5px black; }
 
-.col-md-3, .col-md-6 {
-  z-index: 1; }
-
 .shape_1 {
   width: 200px;
   height: 200px;
   position: absolute;
   bottom: 150px;
-  left: -100px; }
+  left: -100px;
+  z-index: -1; }
 
 .shape_2 {
   width: 220px;
   height: 200px;
   position: absolute;
   bottom: 500px;
-  right: -100px; }
+  right: -100px;
+  z-index: -1; }
 
 .box_1 img {
   width: 200px;
