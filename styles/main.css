@@ -127,40 +127,53 @@ body {
   .box:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); }
 
-.circle_1 svg {
-  width: 300px;
+/*Studenst pages*/
+.profile_card {
+  position: relative;
+  margin-top: 75px;
+  width: 320px;
   height: 300px;
-  z-index: -1;
-  position: absolute;
-  left: -165px;
-  top: -35px;
-  overflow: hidden; }
+  background: #ffffff;
+  border-radius: 10px;
+  transition: all 0.5s ease; }
+  .profile_card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); }
+  .profile_card:hover img {
+    border-color: #ff6161; }
+  .profile_card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -115px;
+    left: 60px;
+    overflow: hidden;
+    border: 4px solid white;
+    transition: all 0.5s ease; }
+  .profile_card h4 {
+    position: absolute;
+    top: 110px;
+    left: 60px; }
+  .profile_card .details {
+    position: absolute;
+    top: 180px;
+    left: 130px; }
+    .profile_card .details .fa-facebook, .profile_card .details .fa-twitter, .profile_card .details .fa-instagram {
+      font-size: 30px; }
 
-.circle_2 svg {
-  width: 300px;
-  height: 300px;
-  z-index: -1;
-  position: absolute;
-  right: -100px;
-  bottom: 0;
-  overflow: hidden; }
+/*Institute page*/
+.col-12 .card-body img, .col-md-6 .card-body img {
+  width: 350px;
+  height: 450px; }
 
-.circle_3 svg {
-  width: 300px;
-  height: 300px;
-  z-index: -1;
-  position: absolute;
-  right: -100px;
-  top: 50px;
-  bottom: 50px;
-  overflow: hidden; }
-
-.col-md-3 img {
-  width: 290px;
-  height: 250px;
-  transition: all .5s linear; }
-  .col-md-3 img:hover {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1); }
+.col-md-3 {
+  margin-bottom: 20px; }
+  .col-md-3 .card {
+    height: 320px; }
+    .col-md-3 .card .card-body:first-child {
+      padding: 5px; }
+    .col-md-3 .card .card-body img {
+      width: 300px !important;
+      height: 200px !important; }
 
 /*# sourceMappingURL=main.css.map */
